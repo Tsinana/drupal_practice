@@ -1,0 +1,8 @@
+uuid: 9147f039-a42f-4275-9e8f-88922e5295fb
+langcode: ru
+status: true
+dependencies: {  }
+id: my_custom_block
+label: 'my custom block'
+revision: 1
+description: 'Описание блоков'

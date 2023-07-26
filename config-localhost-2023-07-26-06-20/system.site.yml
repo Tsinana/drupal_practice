@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: ru
+uuid: e6d7a565-40e4-4c11-bf5f-1c64a5d1b1bb
+name: 'Держи ручку'
+mail: drupal@drupalwebsite.com
+slogan: 'Ручка — не карандаш'
+page:
+  403: ''
+  404: ''
+  front: /node/6
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: ru

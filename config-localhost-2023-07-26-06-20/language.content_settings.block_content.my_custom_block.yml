@@ -1,0 +1,11 @@
+uuid: c3864f3f-ad54-41d1-9da6-c0388c6bb56a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.my_custom_block
+id: block_content.my_custom_block
+target_entity_type_id: block_content
+target_bundle: my_custom_block
+default_langcode: site_default
+language_alterable: false

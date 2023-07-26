@@ -1,0 +1,29 @@
+uuid: f8c51cae-9169-4477-8616-31d3efa3efb9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tip_raboty_
+    - node.type.portfolio
+    - taxonomy.vocabulary.type_of_work
+id: node.portfolio.field_tip_raboty_
+field_name: field_tip_raboty_
+entity_type: node
+bundle: portfolio
+label: 'Тип работы '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_of_work: type_of_work
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

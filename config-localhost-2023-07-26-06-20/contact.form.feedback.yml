@@ -1,0 +1,14 @@
+uuid: 939fc83f-5746-4910-9832-8faa1ffe5d55
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Обратная связь с сайтом'
+recipients:
+  - hlebusru@gmail.com
+reply: ''
+weight: 0
+message: 'Ваше сообщение отправлено.'
+redirect: ''

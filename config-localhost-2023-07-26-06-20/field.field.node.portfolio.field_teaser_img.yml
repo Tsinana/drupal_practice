@@ -1,0 +1,38 @@
+uuid: 19730ea4-7d65-4734-be85-8b07c46a9bf0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_img
+    - node.type.portfolio
+  module:
+    - image
+id: node.portfolio.field_teaser_img
+field_name: field_teaser_img
+entity_type: node
+bundle: portfolio
+label: 'Teaser img'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 212a6019-6e3c-4cdf-a85c-6212b60e0394
+    alt: ''
+    title: ''
+    width: 69
+    height: 75
+field_type: image

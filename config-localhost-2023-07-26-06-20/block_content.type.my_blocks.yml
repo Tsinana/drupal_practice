@@ -1,0 +1,8 @@
+uuid: 3c4a9a31-167f-4afd-9904-dd5d4795cfde
+langcode: ru
+status: true
+dependencies: {  }
+id: my_blocks
+label: 'My blocks'
+revision: 0
+description: 'New type block'

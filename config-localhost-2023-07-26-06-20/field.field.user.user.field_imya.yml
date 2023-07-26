@@ -1,0 +1,20 @@
+uuid: e83edd2e-980f-468e-9e0e-da6bacf0509d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_imya
+  module:
+    - user
+id: user.user.field_imya
+field_name: field_imya
+entity_type: user
+bundle: user
+label: Имя
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: abf02e4e-da44-462e-9a94-0462f47eea53
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:my_blocks:52c7bc8f-7572-4f0c-a878-7f01c0f102ef'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: tara_ruchkapishet
+theme: tara
+region: content_home
+weight: -6
+provider: null
+plugin: 'block_content:52c7bc8f-7572-4f0c-a878-7f01c0f102ef'
+settings:
+  id: 'block_content:52c7bc8f-7572-4f0c-a878-7f01c0f102ef'
+  label: 'Ручка пишет'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

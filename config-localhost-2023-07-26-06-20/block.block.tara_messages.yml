@@ -1,0 +1,22 @@
+uuid: 9bb7878e-724b-420f-8d73-9f0507528370
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: jRybYmcmTQ6xIX-OJZ0DhDtRCdrtGsC0CHaNfwfvgFQ
+id: tara_messages
+theme: tara
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Системные сообщения'
+  label_display: '0'
+  provider: system
+visibility: {  }

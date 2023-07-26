@@ -1,0 +1,22 @@
+uuid: 251aad25-b39d-437b-b434-225975aabef4
+langcode: ru
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - tara
+_core:
+  default_config_hash: iyuQj9HP7TudJqR2BDGoGXEn16NE3m1KUtCw0N5ZTMM
+id: tara_help
+theme: tara
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 43990cb7-42ff-4b56-9d18-816179d963b8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: L5Isbha2f5lp_ISo3rvGr3kIAEQuKCm1p2KC9-KzSaU
+id: tara_branding
+theme: tara
+region: site_branding
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

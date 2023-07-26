@@ -1,0 +1,29 @@
+uuid: 3b428718-ba86-49fe-96ed-f301df9ed1a8
+langcode: ru
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - tara
+id: tara_vkladki
+theme: tara
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      portfolio: portfolio

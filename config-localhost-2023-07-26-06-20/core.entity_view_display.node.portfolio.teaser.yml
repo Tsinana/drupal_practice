@@ -1,0 +1,52 @@
+uuid: b8d42aae-7312-477f-a5d8-befb64e2a2be
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_avtory
+    - field.field.node.portfolio.field_galereya_
+    - field.field.node.portfolio.field_ssy
+    - field.field.node.portfolio.field_teaser_img
+    - field.field.node.portfolio.field_tip_raboty_
+    - node.type.portfolio
+  module:
+    - image
+    - text
+    - user
+id: node.portfolio.teaser
+targetEntityType: node
+bundle: portfolio
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_teaser_img:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_avtory: true
+  field_galereya_: true
+  field_ssy: true
+  field_tip_raboty_: true
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: bb85034a-253d-4d68-b6f7-2363e95b4662
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tip_raboty_
+field_name: field_tip_raboty_
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,38 @@
+uuid: 895a5bcc-d632-4c83-b886-21bbb20c6b57
+langcode: ru
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.article
+  module:
+    - comment
+    - contact
+    - file
+    - filter
+    - media
+    - node
+    - search
+    - shortcut
+    - system
+    - toolbar
+_core:
+  default_config_hash: cFrlqjtkTfvY3RGccjJkPf1SGIfJ942IrxTLWAO4mgA
+id: authenticated
+label: 'Аутентифицированный пользователь'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'create article content'
+  - 'delete own files'
+  - 'edit own article content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view media'

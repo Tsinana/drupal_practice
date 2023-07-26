@@ -1,0 +1,29 @@
+uuid: f20e4622-0144-4bfc-af13-31029b58d6ed
+langcode: ru
+status: true
+dependencies:
+  module:
+    - iek
+name: user_img
+label: 'User img'
+effects:
+  19a0ac94-e371-4036-ab37-264778cbebe7:
+    uuid: 19a0ac94-e371-4036-ab37-264778cbebe7
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 200
+      height: 200
+      anchor: center-center
+  15c6c8f1-d7b6-4dc9-ba9b-26b6a01e993d:
+    uuid: 15c6c8f1-d7b6-4dc9-ba9b-26b6a01e993d
+    id: iek_image_corner
+    weight: -8
+    data:
+      radius: '100'
+  40eb01fc-a299-469f-ac60-fa27068ad883:
+    uuid: 40eb01fc-a299-469f-ac60-fa27068ad883
+    id: image_convert
+    weight: -9
+    data:
+      extension: png

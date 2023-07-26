@@ -1,0 +1,8 @@
+uuid: 38781a2b-6086-4925-a6f6-bf1d7696466f
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Type of work'
+vid: type_of_work
+description: ''
+weight: 0

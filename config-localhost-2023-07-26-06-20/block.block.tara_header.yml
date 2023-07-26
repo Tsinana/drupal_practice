@@ -1,0 +1,25 @@
+uuid: f070827c-053b-4dc1-9126-9bebf6343491
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:my_blocks:9f76d719-7256-4f42-bdf0-08f3412ca94c'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_header
+theme: tara
+region: header_top
+weight: 0
+provider: null
+plugin: 'block_content:9f76d719-7256-4f42-bdf0-08f3412ca94c'
+settings:
+  id: 'block_content:9f76d719-7256-4f42-bdf0-08f3412ca94c'
+  label: Header
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

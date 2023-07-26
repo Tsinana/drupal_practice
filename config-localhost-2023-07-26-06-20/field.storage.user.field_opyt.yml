@@ -1,0 +1,20 @@
+uuid: 6f245b8d-3475-4db0-96b3-4b2d12b42f8c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_opyt
+field_name: field_opyt
+entity_type: user
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

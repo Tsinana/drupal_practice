@@ -1,0 +1,30 @@
+uuid: 4b4cbc81-2422-4125-9f06-63aa3e33e792
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:my_custom_block:e6acbc72-10a0-42ef-8a84-12f5dd6744d0'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_yazhdavalopisanieetogobloka
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:e6acbc72-10a0-42ef-8a84-12f5dd6744d0'
+settings:
+  id: 'block_content:e6acbc72-10a0-42ef-8a84-12f5dd6744d0'
+  label: ЗАГОЛОВОК
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

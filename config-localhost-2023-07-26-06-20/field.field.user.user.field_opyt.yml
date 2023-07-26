@@ -1,0 +1,24 @@
+uuid: 96a44b2f-6964-4bba-b44c-710236a7c083
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_opyt
+  module:
+    - user
+id: user.user.field_opyt
+field_name: field_opyt
+entity_type: user
+bundle: user
+label: Опыт
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' лет'
+field_type: decimal

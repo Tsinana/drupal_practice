@@ -1,0 +1,11 @@
+uuid: f0300d41-12b2-43c9-9562-f2ee0b688ee1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_of_work
+id: taxonomy_term.type_of_work
+target_entity_type_id: taxonomy_term
+target_bundle: type_of_work
+default_langcode: site_default
+language_alterable: false

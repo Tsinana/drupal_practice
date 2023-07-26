@@ -1,0 +1,30 @@
+uuid: d7c74a7e-2d52-4a17-9499-1fcd1f44a195
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:my_blocks:56db2450-8811-4c8d-8760-11e68c04c7c9'
+  module:
+    - block_content
+    - system
+  theme:
+    - tara
+id: tara_myservices
+theme: tara
+region: content_home
+weight: -7
+provider: null
+plugin: 'block_content:56db2450-8811-4c8d-8760-11e68c04c7c9'
+settings:
+  id: 'block_content:56db2450-8811-4c8d-8760-11e68c04c7c9'
+  label: 'О прекрасном'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

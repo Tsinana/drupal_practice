@@ -1,0 +1,22 @@
+uuid: ee7acb86-ad3c-4c08-aa7c-d0cf1ce4ddcd
+langcode: ru
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tara
+_core:
+  default_config_hash: 7W5m1cGZjEB4_o0Di0lrmtWuUx1Wft0TuAVyUSgPUwQ
+id: tara_content
+theme: tara
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  label_display: '0'
+  provider: system
+visibility: {  }

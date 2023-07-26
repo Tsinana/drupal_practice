@@ -1,0 +1,25 @@
+uuid: f9fb8393-8a04-4e25-a519-7d949cbb7130
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:my_blocks:74491f2b-a0f1-43fc-ab51-62037bff3117'
+  module:
+    - block_content
+  theme:
+    - tara
+id: tara_oglavnom
+theme: tara
+region: content_home
+weight: -8
+provider: null
+plugin: 'block_content:74491f2b-a0f1-43fc-ab51-62037bff3117'
+settings:
+  id: 'block_content:74491f2b-a0f1-43fc-ab51-62037bff3117'
+  label: 'О главном'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

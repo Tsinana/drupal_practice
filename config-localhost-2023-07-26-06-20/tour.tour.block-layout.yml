@@ -1,0 +1,42 @@
+uuid: 1741e744-21e0-4ccd-8278-04e31df734ec
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: pG6QAggTrD7RQWb79PT3NH48GSvTiePly_l53f3OENs
+id: block-layout
+label: 'Страница схемы блоков'
+module: block
+routes:
+  -
+    route_name: block.admin_display
+tips:
+  block-layout:
+    id: block-layout
+    plugin: text
+    label: 'Макет блоков'
+    weight: 1
+    body: 'Блоки - это блоки содержимого, отображаемые в области или области веб-страницы, которые могут отображаться в областях (например, нижнем колонтитуле или боковой панели) на вашей странице.'
+  place-block:
+    id: place-block
+    plugin: text
+    label: 'Разместить блоки'
+    weight: 2
+    selector: .button--small
+    body: 'Любой пользовательский или добавленный блок можно добавить в конкретный регион, нажав кнопку «Поместить блок». Новый блок также можно создать, нажав кнопку «Поместить блок».'
+  block-region:
+    id: block-region
+    plugin: text
+    label: 'Регион Блока'
+    weight: 3
+    selector: .block-region-select
+    body: 'Assign or change the region of a block by clicking here. A dropdown list with all the regions will appear. You can place one block in multiple regions.'
+  configure-block:
+    id: configure-block
+    plugin: text
+    label: 'Настроить блок'
+    weight: 4
+    selector: .dropbutton-widget
+    body: 'Нажав «Настроить», вы можете продолжить и редактировать содержимое блока, работать с настройками видимости и даже изменять его расположение в вашей теме.'

@@ -1,0 +1,20 @@
+uuid: a672a2d2-c7ba-4972-864a-8bc45bd030b8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - user
+id: node.field_avtory
+field_name: field_avtory
+entity_type: node
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
